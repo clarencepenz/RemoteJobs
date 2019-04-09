@@ -30,13 +30,35 @@ p{
 }
 
 .modal-header{
-  border:none;
+  border:none!important;
 }
 
 .modal-foot button{
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: -5px;
   margin-bottom: 30px;
+}
+.modal-body p{
+  padding-right:20px;
+  padding-left: 20px;
+  font-size: 10px;
+}
+
+.modal-body h3{
+  padding-left: 20px;
+  font-size: 15px!important;
+  font-weight: bold!important;
+}
+
+.modal-body .space{
+  padding-bottom: 20px;
+}
+
+.modal-body h5{
+  padding-left: 20px;
+  font-size: 15px!important;
+  font-weight: bold!important;
+  margin-left: 0px;
 }
 
 
