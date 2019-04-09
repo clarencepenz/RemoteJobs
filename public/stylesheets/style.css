@@ -5,6 +5,7 @@
 body {
   margin: 0;
   color: #11144c;
+  background-color: #FFFFFF;
   font-family: "Work Sans", sans-serif, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -62,7 +63,7 @@ body {
 		margin: 0;
 		padding: 0;
 		overflow-x: hidden;
-		background-color: #ced0f1;
+		background-color: #ffffff;
 		color: #11144C;
 		font-family: 'Work Sans';
 	}
