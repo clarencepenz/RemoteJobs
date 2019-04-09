@@ -3,13 +3,16 @@
 body{
   background:#cccccc;
   font-family: 'Work Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 p{
   color: #11144C;
 }
 
-
+.navbar .navbar-dark{
+  color: #ffffff;
+}
 
 .btn-primary .btn{
   color: color: #11144C!important;
@@ -57,7 +60,7 @@ input{
 }
 
 .btn-remote{
-  background-color: #11144C ;
+  background-color: #11144C!important;
   margin-left: -40px;
   
 }
@@ -67,14 +70,13 @@ input{
 }
 /* Navbar */
 
-.navbar-toggler{
-  color: #11144C;
-}
+
 
 .navbar{
   height: 90px;
-  border-color: #ffffff;
+  border-color: #ffffff!important;
   padding-bottom: 0;
+  background-color: #ffffff!important;
 }
 
 .navbar .md-4{
@@ -82,10 +84,12 @@ input{
 }
 
 .navbar .navbar-brand {
-  color: #11144C;
+  color: #11144C!important;
   font-weight: bolder;
 
 }
+
+
 
 
 .navbar  img{
@@ -100,9 +104,7 @@ input{
 }
 
 
-.navbar-dark{
-  background-color: #ffffff!important;
-}
+
 
 .form-inline a{
   color:  #11144C;
@@ -246,15 +248,19 @@ width: 440px!important;
 
 #section-b .text-small{
 text-align: left;
-margin-left: 100px;
+margin-left: 150px;
 }
 
 #section-b .textsmall{
 text-align: left;
 color: #f4f4f4;
-margin-left: 115px;
+margin-left: 165px;
 }
 
+
+#joblistings .m-5{
+  background-color: #ffffff!important;
+}
 /* Footer */
 #footer{
   background:#0B0D38;
@@ -271,7 +277,7 @@ margin-left: 115px;
 @media (max-width: 767px) {
   .navbar-toggler{
   color: #11144C;
-  background-color: #11144C;
+  background-color: #11144C!important;
   margin-top: -70px;
 }
 
